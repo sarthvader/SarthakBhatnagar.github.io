@@ -21,6 +21,20 @@ body {
   font-size: 40px;
 }
 
+/* .bootcamp{
+  display: inline;
+	position: relative;
+	font: 40px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5); 
+}
+
+.bootcamp:after{
+	content: "Salesforce Developer Bootcamp";
+	position: absolute; left: 1px; top: 1px;
+	color: rgba(255,0,0,0.5);   
+} */
+
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
 .navbar {
   overflow: hidden;
