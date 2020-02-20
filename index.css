@@ -2,16 +2,9 @@
   box-sizing: border-box;
 }
 
-body{
-  background-color: #FADBD8;
-}
-
 .header a{
   text-decoration: none;
   color: white;
-}
-.header a:link {
-  color: #000;
 }
 
 /* Style the body */
@@ -22,30 +15,22 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 80px;
+  padding-top: 10%;
+  height: 100vh;
+  min-height: 500px;
+  /* padding: 80px; */
   text-align: center;
   background: #d7433f;
   color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Increase the font size of the heading */
 .header h1 {
   font-size: 40px;
 }
-
-/* .bootcamp{
-  display: inline;
-	position: relative;
-	font: 40px Helvetica, Sans-Serif;
-	letter-spacing: -5px;
-	color: rgba(0,0,255,0.5); 
-}
-
-.bootcamp:after{
-	content: "Salesforce Developer Bootcamp";
-	position: absolute; left: 1px; top: 1px;
-	color: rgba(255,0,0,0.5);   
-} */
 
 /* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
 .navbar {
@@ -98,6 +83,13 @@ body {
   flex: 30%;
   background-color: #f1f1f1;
   padding: 20px;
+}
+
+.side img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 20px; */
 }
 
 /* Main column */
